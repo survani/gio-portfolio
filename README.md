@@ -1,4 +1,2 @@
 Hey!! This is my personal portfolio website -
-
-Stage:
-- Staging -v 1
+Current Build: Alpha 0.1
