@@ -9,7 +9,7 @@ const Home = () => {
                 </div>
                 <div className='bio-text'>
                     <div className='bio-title'>
-                        <h1>Hello! I am Giovani a Full Stack Web Developer</h1>
+                        <h1>Hello! I am Giovani a Full Stack Web Developer :)</h1>
                     </div>
                     <div className='bio-links'>
                         <a href='https://github.com/survani'>GitHub</a>
