@@ -6,6 +6,7 @@ import Navigation from './Components/Navigation';
 import Home from './Components/Home.jsx';
 // import Footer from './Components/Footer';
 import Projects from './Components/Projects';
+import About from './Components/About';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navigation/> 
       <Route exact path='/' component={Home}/>
       <Route path='/projects' component={Projects}/>
+      <Route path='/about' component={About}/>
       
     </div>
   );
