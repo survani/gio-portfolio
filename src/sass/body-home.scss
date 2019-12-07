@@ -8,7 +8,7 @@
         justify-content: center;
         align-items: center;
         flex-flow: column;
-        margin-top: 10rem;
+        margin-top: 7rem;
         .bio-img {
             img {
                 width: 400px;
@@ -33,6 +33,31 @@
                     font-family: Cutive Mono;
                     font-size: 1.2rem;
                     color: black;
+                    padding: 1rem;
+                    background-color: white;
+                    border: 1px solid;
+                    border-radius: 4px;
+                }
+                .github-a {
+                    color: rgb(170, 116, 170);
+                    &:hover {
+                        background-color: rgb(170, 116, 170);
+                        color: white;
+                    }
+                }
+                .twitter-a {
+                    color: rgb(29, 161, 242);
+                    &:hover {
+                        background-color: rgb(29, 161, 242);
+                        color: white;
+                    }
+                }
+                .dev-a {
+                    color: red;
+                    &:hover {
+                        background-color: red;
+                        color: white;
+                    }
                 }
             }
         }

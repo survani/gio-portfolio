@@ -3,12 +3,15 @@ import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
     return (
+        <React.Fragment>
             <div className='navbar'>
-                <NavLink to='/'>Home</NavLink>
-                <NavLink to='/projects'>Projects</NavLink>
-                <NavLink to='/about'>About Me</NavLink>
-                <NavLink to='/contact'>Contact</NavLink>
+                <NavLink className='nav-links' to='/'>Home</NavLink>
+                <NavLink className='nav-links' to='/projects'>Projects</NavLink>
+                <NavLink className='nav-links' to='/about'>About Me</NavLink>
+                <NavLink className='nav-links' to='/contact'>Contact</NavLink>
+                <a href="https://twitter.com/garfias_giovani?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-lang="en" data-show-count="false">Follow @garfias_giovani</a>
             </div>
+        </React.Fragment>
     );
 }
 
