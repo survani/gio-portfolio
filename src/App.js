@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="App">
       <Navigation/> 
-      <Route exact path='/' component={Home}/>
-      <Route path='/projects' component={Projects}/>
-      <Route path='/about' component={About}/>
+      <Route exact path='/' component= {Home}/>
+      <Route path='/projects' render={() => <Projects/>}/>
+      <Route path='/about' render={() => <About/>}/>
       
     </div>
   );

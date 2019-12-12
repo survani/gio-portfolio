@@ -10,7 +10,7 @@ const Projects = () => {
             <section className='projects-body'>
                 <div className='card'>
                     <div className='card-image'>
-                        <img src={PrisonerSkillsImage}></img>
+                        <img alt='Project' src={PrisonerSkillsImage}></img>
                     </div>
                     <div className='card-text-container'>
                         <div className='card-text'>
