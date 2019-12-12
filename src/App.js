@@ -14,11 +14,11 @@ import Login from './Components/login'
 
 function App() {
   //Autho Part of code
-  // const { loading } = useAuth0();
+  const { loading } = useAuth0();
 
-  // if (loading) {
-  //   return <div>Loading...</div>;
-  // }
+  if (loading) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <div className="App">
