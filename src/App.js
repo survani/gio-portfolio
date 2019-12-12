@@ -13,8 +13,8 @@ function App() {
     <div className="App">
       <Navigation/> 
       <Route exact path='/' component= {Home}/>
-      <Route path='/projects' render={() => <Projects/>}/>
-      <Route path='/about' render={() => <About/>}/>
+      <Route path='/projects' component={Projects}/>
+      <Route path='/about' render={About}/>
       
     </div>
   );
