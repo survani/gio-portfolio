@@ -1,7 +1,7 @@
 //Built-In Components ---
 import React from 'react';
 import { Route } from 'react-router-dom';
-import './sass/styles.scss';
+import './sass/_styles.scss';
 
 //Custom Made Components---
 import Navigation from './Components/Navigation';

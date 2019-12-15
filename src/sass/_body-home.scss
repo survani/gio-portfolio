@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Dosis&display=swap');
+
+
+
+.home-bio-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+        .home-introduction {
+            color: white;
+            font-size: 2.8rem;
+            margin-top: 5rem;
+            h1 {
+                line-height: 3.5rem;
+            }
+            .home-social-icons {
+                 margin-top: 2rem;
+            .icon {
+                width: 2rem;
+                height: 2rem;
+                color: white;
+                margin-right: 1.3rem;
+                }
+        }
+    }
+        .home-skills {
+        background-image: url(https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+            p {
+                padding: 2rem;
+            }
+        }
+}   
