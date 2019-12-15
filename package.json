@@ -1,5 +1,6 @@
 {
   "name": "gio-app",
+  "homepage": "https://giovanigarfias.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
