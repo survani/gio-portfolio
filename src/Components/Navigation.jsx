@@ -10,10 +10,10 @@ const Navigation = () => {
                 <NavLink className='nav-links' to='/projects'>Projects</NavLink>
                 <NavLink className='nav-links' to='/about'>About Me</NavLink>
                 <NavLink className='nav-links' to='/contact'>Contact</NavLink>
-                <a class="twitter-share-button" data-size='large'
+                <a className="twitter-share-button" data-size='large'
                     href="https://twitter.com/intent/tweet?text=Checkout%20this%20awesome%20Full%20Stack%20Web%20Developer!">
                     Tweet</a>
-                <a href="https://twitter.com/garfias_giovani?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-lang="en" data-show-count="false">Follow @garfias_giovani</a>
+                <a href="https://twitter.com/garfias_giovani?ref_src=twsrc%5Etfw" className="twitter-follow-button" data-size="large" data-show-screen-name="false" data-lang="en" data-show-count="false">Follow @garfias_giovani</a>
             </div>
         </React.Fragment>
     );
