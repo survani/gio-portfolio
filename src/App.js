@@ -7,9 +7,9 @@ import './sass/_styles.scss';
 import Navigation from './Components/Navigation';
 import Home from './Components/Home.jsx';
 // import Footer from './Components/Footer';
-import ProjectsCard from './Components/ProjectsCard';
 import About from './Components/About';
 import ProjectContainer from './Components/ProjectContainer';
+import Contact from './Components/Contact';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
       <Route exact path='/' component= {Home}/>
       <Route path='/projects' component={ProjectContainer}/>
       <Route path='/about' render={About}/>
+      <Route path='/contact' render={Contact}/>
       
     </div>
   );
