@@ -5,7 +5,7 @@ const Projects = props => {
     <div className="project-card-container">
       <div className="project-main-details">
         <p className="project-name">{props.name}</p>
-        <img src={props.image} alt="project image" />
+        <img src={props.image} alt="project" />
       </div>
       <div className="project-sub-details">
         <div className="lang-container">
