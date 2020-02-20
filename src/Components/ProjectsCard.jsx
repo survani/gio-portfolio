@@ -10,8 +10,8 @@ const Projects = props => {
       <div className="project-sub-details">
         <div className="lang-container">
           <p>Languages: </p>
-          <img className="lang-logo" src={props.react} alt="language" />
-          <img className="lang-logo" src={props.html} alt="language" />
+          <img className="lang-logo" src={props.react} alt="" />
+          <img className="lang-logo" src={props.html} alt="" />
           <img className="lang-logo" src={props.css} alt="language" />
         </div>
         <a href={props.link}>
