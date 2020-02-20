@@ -23,6 +23,17 @@ const ProjectData = [
     react: "http://localhost:3000/static/media/React.2d3e42da.png",
     html: "https://giovanigarfias.com/static/media/Html5.04f8b8c3.png",
     css: "https://giovanigarfias.com/static/media/Css.8d4b8d2c.png"
+  },
+  {
+    id: 2,
+    name: "Personal Portfolio",
+    description: "My Personal portfolio",
+    image:
+      "https://previews.dropbox.com/p/thumb/AAs_dJYt8p0GdKZd6NcpmRXsad0WEa6ojv4AWx1_EXFa4RpMzZ2Lp-FwkUtz8n-IjfUBlnDw2vuUYF_Ziu3E24oYTsF9UqsXsGr68RldwnQTr20Ix1eyZRvF-BK6luELo60nGY1C8NCvAeykiYcsU6nEg-rorjtYJ86elcFfraAKVes_0jl9uqdCV94dnBGC-XV0axclhLtYQoCwQfH2-R16AgNnrkk8Ss4fov3-HoL2MUtODRPwCkDVHucAme6b3S8pfzsmqkx0yalrQQwwA06n71ArvoLI3eWFL7zJl8FqXxKT-PuHcw7UCDwi0JYFQRbhpqK-eZ94eOJXUsppsNKN/p.png?fv_content=true&size_mode=5",
+    link: "https://giovanigarfias.com",
+    react: "http://localhost:3000/static/media/React.2d3e42da.png",
+    html: "https://giovanigarfias.com/static/media/Html5.04f8b8c3.png",
+    css: "https://giovanigarfias.com/static/media/Css.8d4b8d2c.png"
   }
 ];
 
