@@ -1,54 +1,61 @@
 .project-title {
-    text-align: center;
-    margin: 0rem 0 4rem 0;
-    font-size: 1.8rem;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),url("https://images.pexels.com/photos/957002/berchtesgaden-alpine-watzmann-berchtesgaden-national-park-957002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    background-position: center;
-    padding: 5rem;
-    color: white;
-    background-attachment: fixed;
-    text-transform: uppercase;
-    font-size: 3rem;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin: 0rem 0 4rem 0;
+  font-size: 1.8rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    url("https://images.pexels.com/photos/957002/berchtesgaden-alpine-watzmann-berchtesgaden-national-park-957002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center;
+  padding: 5rem;
+  color: white;
+  background-attachment: fixed;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
 }
-.project-card-container {
-    display: flex;
+
+.project-inner-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .project-card-container {
     background: white;
-    max-width: 1000px;
-    margin: 10px auto;
-    border-top-left-radius: 1.2rem;
-    border-bottom-left-radius: 1.2rem;
-    img{
-        border-top-left-radius: 1rem;
-        border-bottom-left-radius: 1rem;
-        width: 75%;
+    max-width: 300px;
+    padding: 1rem;
+    margin-right: 1.5rem;
+    //used when in mobile => temp css/style
+    margin-top: 1rem;
+    .project-main-details {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      .project-name {
+        font-size: 20px;
+        margin-bottom: 1rem;
+      }
+      img {
+        width: 100%;
+      }
     }
-    .project-card-details {
-        width: 90%;
-        .project-name {
-            margin-top: 1.5rem;
-            font-size: 1.3rem;
-            text-align: center;
+    .project-sub-details {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      .lang-container {
+        display: flex;
+        align-items: center;
+        .lang-logo {
+          width: 10%;
         }
-        .project-description {
-            margin-top: 1.5rem;
-            margin-left: 2rem;
-            margin-right: 2rem;
+        p {
+          margin-right: 10px;
         }
-        .project-link{
-            display: flex;
-            justify-content: end;
-            margin-top: 3rem;
-            margin-right: 1rem;
-            a {
-                border: 2px solid gainsboro;
-                padding: 1rem;
-                &:hover {
-                    background: darkgray;
-                    color: white;
-                }
-            }
-        }
+      }
+      .button-style-1 {
+        border: none;
+        padding: 10px;
+        margin-top: 1rem;
+      }
     }
+  }
 }

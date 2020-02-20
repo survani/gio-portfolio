@@ -1,17 +1,28 @@
+import prisoner from "../Components/Assets/PrisonerSkillsProject.png";
+
 const ProjectData = [
   {
     id: 0,
     name: "Keep Savvy",
-    description: "Build Project #1 @LambdaSchool. I created the Landing Page for the site. I used HTML, CSS, and LESS.",
-    image: "https://previews.dropbox.com/p/thumb/AAsc4sPKPSAQzrlFx3DM__1VoIF2pOEaHZspbb_CXye7OUi9Ve0xRvygAAnglucC8b9dhktTy0n1hohIY81YdlD4G8Os63sIm5Sw-tGi9fhmFoYEtnAqEVijzjkI45948KWaVX5Z6XdoShEsK-gk67LdaMOt8ymkg0vOTC9DGkQKIsg1YuZOdb5q0O5Z99noqcH1RxVXD3nALtQd671tlV4z8uyNaMqF9gd6xRQqNxx0aX931Q2PsymFayEzEvs5JLLHFWOsFmdkj_aCmxm6POa18ktalk0oPh6f3YqB8q9uZdt3hmFbAI8vpVv8gcc71LLAnjdJ1-q0aO-6dIjI84Lv/p.png?fv_content=true&size_mode=5",
-    link: "https://elegant-aryabhata-cdd64e.netlify.com/"
+    description:
+      "Build Project #1 @LambdaSchool. I created the Landing Page for the site. I used HTML, CSS, and LESS.",
+    image:
+      "https://uc3ce287392aacd636aa69c286a5.previews.dropboxusercontent.com/p/thumb/AAttMo5pvcKz6fQftS0E3WD3JOJ5lC2apMcNGE27DwezgnBzE22VhgbOqsITUVZXQUEE7kON-fnrTZGbxZHEs_dGE1TeZrmC1SIG321f10RPYztyvDWHJqOUd1n40kSCpmn__5bF7QNA74IvUjxuDSN_iOXW7slW1r3EAyW4tKUy83__X3n5JCWRolFEEZPFAonI7LtuPIRXYjsAj7Da16vX_qisxGQz89g1yXAOlQtLlW_37iUaRAvVUqpQGsIIWkuPRVSNACZBvzvlUan07-llQWQMsfqx_hr3mApUc674MKJQ0aux_S3vYCwJgMhYt5P9WeUfJ0uIIpNaQIbRy3uz/p.png",
+    link: "https://elegant-aryabhata-cdd64e.netlify.com/",
+    html: "https://giovanigarfias.com/static/media/Html5.04f8b8c3.png",
+    css: "https://giovanigarfias.com/static/media/Css.8d4b8d2c.png"
   },
   {
     id: 1,
     name: "Chef Portfolio",
-    description: "Chef Portfolio is a recipe application that let's Chefs share recipes to the world.",
-    image: "https://previews.dropbox.com/p/thumb/AAs7t01mzHoscflJdMwPhXmB8at3PuT08dVUvDNp5R9qj0uR9AgLScFAAt53yn0t7IiRGMjpWkCKPkt0LJaqygPqBS2u3m11Jyxx29FdY3KjsWZJsfLxD2GKXDATBRjpgMUyDm5t1CZwXMKGX5WunUb1px78zVwJ65XYL1z5vMkn636ofuzFkJ94kluk8S2nGGBb8xjfEq4gac-09kTzESWMxVwb7j0N30VPa01bejKVfg4FHKrYIQtO6yxPXhagc4UkO8Wvyh51XZ3je3mSx9QhTeRWsLR4PeT6dyVaNju-IpoGTEUUbZoPOVKJygwRBYYfSJ2B1Vwei2WCCBeIksYx/p.png?size=2048x1536&size_mode=3",
+    description:
+      "Chef Portfolio is a recipe application that let's Chefs share recipes to the world.",
+    image:
+      "https://uc0d437579ec9a6d4409c0a384ef.previews.dropboxusercontent.com/p/thumb/AAuMWywxI6YNOiBxBHTigPoj4Q5XUHohgIySmmI0RGlty9hpJcDxpF_rCg0EYozEBO43DdTwCfrltaLNY9YbBAwf2v7pJxVaLVYtwDwB_shRh4qn-63xa4c3-U9AIItqzL7eaxj-aRZ0OCQPsFv9mt-R-KWeD_pEIEi1tidrbdkpaZd81jhvmSwmeRQfJ9ylC2PnNh6QNQNg5tMflz-Q15jzojqiixlAu6dlR2SPvGvL6RYBPVqv8H2_C3jd33pCNv5kwhLZ8EUhlx1NVJlgzeIxbu7raHK95oEL9ba-2cFL_Q3zeyZjB9l7FYjAoCLSXDMDkHvPi-1RrGuucvrnryRP/p.png",
     link: "https://frosty-shaw-74dc5f.netlify.com/",
+    react: "http://localhost:3000/static/media/React.2d3e42da.png",
+    html: "https://giovanigarfias.com/static/media/Html5.04f8b8c3.png",
+    css: "https://giovanigarfias.com/static/media/Css.8d4b8d2c.png"
   }
 ];
 
