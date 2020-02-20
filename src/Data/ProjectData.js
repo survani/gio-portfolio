@@ -1,5 +1,3 @@
-import prisoner from "../Components/Assets/PrisonerSkillsProject.png";
-
 const ProjectData = [
   {
     id: 0,
