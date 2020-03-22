@@ -10,6 +10,7 @@ import Home from "./Components/Home.jsx";
 import About from "./Components/About";
 import ProjectContainer from "./Components/ProjectContainer";
 import Contact from "./Components/Contact";
+import Contributing from "./Components/Contributing";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <Route exact path="/" component={Home} />
       <Route path="/projects" component={ProjectContainer} />
       <Route path="/about" render={About} />
-      <Route path="/contact" render={Contact} />
+      <Route path="/hireme" render={Contributing} />
     </div>
   );
 }

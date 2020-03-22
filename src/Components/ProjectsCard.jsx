@@ -9,7 +9,7 @@ const Projects = props => {
       </div>
       <div className="project-sub-details">
         <div className="lang-container">
-          <p>Languages: </p>
+          <p className="language-choice">Languages: </p>
           <img className="lang-logo" src={props.react} alt="language" />
           <img className="lang-logo" src={props.html} alt="language" />
           <img className="lang-logo" src={props.css} alt="language" />

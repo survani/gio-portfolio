@@ -5,8 +5,9 @@ const ProjectData = [
     description:
       "Build Project #1 @LambdaSchool. I created the Landing Page for the site. I used HTML, CSS, and LESS.",
     image:
-      "https://uc3ce287392aacd636aa69c286a5.previews.dropboxusercontent.com/p/thumb/AAttMo5pvcKz6fQftS0E3WD3JOJ5lC2apMcNGE27DwezgnBzE22VhgbOqsITUVZXQUEE7kON-fnrTZGbxZHEs_dGE1TeZrmC1SIG321f10RPYztyvDWHJqOUd1n40kSCpmn__5bF7QNA74IvUjxuDSN_iOXW7slW1r3EAyW4tKUy83__X3n5JCWRolFEEZPFAonI7LtuPIRXYjsAj7Da16vX_qisxGQz89g1yXAOlQtLlW_37iUaRAvVUqpQGsIIWkuPRVSNACZBvzvlUan07-llQWQMsfqx_hr3mApUc674MKJQ0aux_S3vYCwJgMhYt5P9WeUfJ0uIIpNaQIbRy3uz/p.png",
+      "https://previews.dropbox.com/p/thumb/AAuWwbbdygJ2g043dvafIs7hQKLm-OpCcZM4UvXtrTvmu84vr9queYeGIJQycEYrAySTGQLMky30Z6Qzn3Fc6UpmNTF6DG1ubzg_44b3Bw3hDz2zV940E62EHQIXO_1dGk2GFQU8-Ql8pXsK_AU8xui_ZvHRYDEEAlAx3aq7D2igaAtuLjPpgS8_xTFLuRHpb7oKUPGPJL5cC6YZr-PLhiCcq7WSVWSaCfncXaI3RI-OBWlbkLJfHLvB0nPu1-Yvx6-PAHedHMWvREj1XhNblUv7803z7aK_CdQ7Dy8FHjGThbGofHw8paH0t8AZCCo-s3nuKV3DiCM2qEsNUWBugo7G/p.png?fv_content=true&size_mode=5",
     link: "https://elegant-aryabhata-cdd64e.netlify.com/",
+    react: "http://localhost:3000/static/media/React.2d3e42da.png",
     html: "https://giovanigarfias.com/static/media/Html5.04f8b8c3.png",
     css: "https://giovanigarfias.com/static/media/Css.8d4b8d2c.png"
   },
@@ -16,7 +17,7 @@ const ProjectData = [
     description:
       "Chef Portfolio is a recipe application that let's Chefs share recipes to the world.",
     image:
-      "https://uc0d437579ec9a6d4409c0a384ef.previews.dropboxusercontent.com/p/thumb/AAuMWywxI6YNOiBxBHTigPoj4Q5XUHohgIySmmI0RGlty9hpJcDxpF_rCg0EYozEBO43DdTwCfrltaLNY9YbBAwf2v7pJxVaLVYtwDwB_shRh4qn-63xa4c3-U9AIItqzL7eaxj-aRZ0OCQPsFv9mt-R-KWeD_pEIEi1tidrbdkpaZd81jhvmSwmeRQfJ9ylC2PnNh6QNQNg5tMflz-Q15jzojqiixlAu6dlR2SPvGvL6RYBPVqv8H2_C3jd33pCNv5kwhLZ8EUhlx1NVJlgzeIxbu7raHK95oEL9ba-2cFL_Q3zeyZjB9l7FYjAoCLSXDMDkHvPi-1RrGuucvrnryRP/p.png",
+      "https://previews.dropbox.com/p/thumb/AAun-c8R_XdHAw0OcJ0EdWB7-s-iPN9fOdVNghm6gIQCy-PbUV-qEPNE3oxI8hFQaB6xbQAG6EyswyTz_Rqu08VruQp3w6lOyuF34ulgvYFR_Sc7m5byQ6MVlpu0A_g9bMOCBlTl5nD50ThTZ6MNGs4T2pUd9w_OhXG-FhHqW8LL5rlcerLGZkC8gvc7DnO8n2xiGA9wz_lPuirajzxCutyclFJepSpcKKTPR6mHWbnxC7te3ymA3hDhvqUFH6q9avhmDJvGvGOWayHuCSOj5mNxPSrqsupYL3UdTuHps2ZZm_6UQtjUj49Zvqg6Rzk615Nd-Uab6PwFhYyux0x3aTg8/p.png?fv_content=true&size_mode=5",
     link: "https://frosty-shaw-74dc5f.netlify.com/",
     react: "http://localhost:3000/static/media/React.2d3e42da.png",
     html: "https://giovanigarfias.com/static/media/Html5.04f8b8c3.png",
