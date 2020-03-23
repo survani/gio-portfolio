@@ -40,5 +40,14 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script>
+      window.announcekit = (window.announcekit || { queue: [], on: function(n, x) { window.announcekit.queue.push([n, x]); }, push: function(x) { window.announcekit.queue.push(x); } });
+      window.announcekit.push({
+        "widget": "https://announcekit.app/widget/1AO3yE",
+        "selector": ".announcekit-widget",
+        "version": 2
+      })
+    </script>
+    <script async src="https://cdn.announcekit.app/widget.js"></script>
   </body>
 </html>

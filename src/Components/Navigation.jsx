@@ -14,6 +14,7 @@ const Navigation = () => {
                     href="https://twitter.com/intent/tweet?text=Checkout%20this%20awesome%20Full%20Stack%20Web%20Developer!">
                     Tweet</a>
                 <a href="https://twitter.com/garfias_giovani?ref_src=twsrc%5Etfw" className="twitter-follow-button" data-size="large" data-show-screen-name="false" data-lang="en" data-show-count="false">Follow @garfias_giovani</a>
+                <p className="announcekit-widget"> What's New? </p>
             </div>
         </React.Fragment>
     );
