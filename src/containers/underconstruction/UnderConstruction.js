@@ -9,7 +9,7 @@ const UnderConstruction = () => {
         <MainImage src={CodeInspection} alt="Under Construction"></MainImage>
         <div>
           <HeaderName>Website is Currently</HeaderName>
-          <SubText> Under Construction </SubText>
+          <SubText> Under Construction</SubText>
         </div>
       </MainContainer>
     </>
