@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Dosis&display=swap');
+
+
+.home-bio-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+        .home-introduction {
+            color: white;
+            font-size: 2.8rem;
+            margin-top: 5rem;
+            text-align: center;
+            .people {
+                width: 40%;
+            }
+            h1 {
+                line-height: 3.5rem;
+            }
+            .home-social-icons {
+                 margin-top: 2rem;
+            .icon {
+                width: 2rem;
+                height: 2rem;
+                color: white;
+                margin-right: 1.3rem;
+                }
+        }
+    }
+    .skills-section {
+        margin-top: 10rem;
+        margin-bottom: 7rem;
+        .skill-title {
+            color: white;
+            text-align: center;
+            font-size: 1.5rem;
+            padding: 1.5rem;
+        }
+        .skill-icon {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2rem;
+            .skill-img {
+                width: 150px;
+            }
+        }
+    }
+}   

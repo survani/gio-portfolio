@@ -1,16 +1,21 @@
 {
-  "name": "portfolio",
+  "name": "gio-app",
+  "homepage": "https://giovanigarfias.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@primer/components": "^19.0.0",
+    "@auth0/auth0-spa-js": "^1.6.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.8",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "styled-components": "^5.1.0"
+    "node-sass": "^4.13.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.0"
   },
   "scripts": {
     "start": "react-scripts start",

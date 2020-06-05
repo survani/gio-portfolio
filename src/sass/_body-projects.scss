@@ -1,0 +1,71 @@
+.project-title {
+  text-align: center;
+  margin: 0rem 0 4rem 0;
+  font-size: 1.8rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    url("https://images.pexels.com/photos/957002/berchtesgaden-alpine-watzmann-berchtesgaden-national-park-957002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center;
+  padding: 5rem;
+  color: white;
+  background-attachment: fixed;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.project-inner-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .project-card-container {
+    background: white;
+    max-width: 300px;
+    padding: 1rem;
+    margin-right: 1.5rem;
+    //used when in mobile => temp css/style
+    margin-top: 1rem;
+    .project-main-details {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      .project-name {
+        font-size: 20px;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+      }
+      img {
+        width: 100%;
+      }
+    }
+    .project-sub-details {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      .lang-container {
+        display: flex;
+        align-items: center;
+        .language-choice {
+          font-family: "Roboto", sans-serif;
+        }
+        .lang-logo {
+          width: 10%;
+        }
+        p {
+          margin-right: 10px;
+        }
+      }
+      .button-style-1 {
+        border: none;
+        padding: 10px;
+        margin-top: 1rem;
+        border-radius: 5px;
+        background: #f38704;
+        color: white;
+        font-family: "Roboto", sans-serif;
+      }
+    }
+  }
+}
