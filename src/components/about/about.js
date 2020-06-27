@@ -33,7 +33,7 @@ const About = () => {
           I'm always looking for new challenges and opportunities to grow as a
           person.
         </Text>
-        <Text> Do you have an idea in mind? </Text>
+        <Text> Do you have a project? </Text>
         <Links to="/hire">
           <Text>Hire Me</Text>
         </Links>

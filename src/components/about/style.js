@@ -5,6 +5,10 @@ export const IntroSec = styled.section`
   height: 750px;
   display: flex;
   justify-content: center;
+  @media (min-width: 768px) {
+    font-size: 86px;
+    margin-bottom: 10rem;
+  }
 `;
 
 export const IntroText = styled.h2`
@@ -13,6 +17,9 @@ export const IntroText = styled.h2`
   font-family: Montserrat;
   text-transform: uppercase;
   font-weight: 900;
+  @media (min-width: 768px) {
+    font-size: 86px;
+  }
 `;
 
 export const IntroText2 = styled.h2`
@@ -62,5 +69,4 @@ export const Links = styled(Link)`
   font-weight: 200;
   font-family: Montserrat;
   text-decoration: none;
-  color: black;
 `;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Header = styled.header`
-  background: #2b2b2b;
+  background: #3f3d56;
 `;
 export const NavContainer = styled.nav`
   padding: 1rem;
