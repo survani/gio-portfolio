@@ -1,14 +1,16 @@
-import React from 'react';
-import Navigation from '../../containers/navigation/Navigation';
-import Introduction from '../../containers/introduction/Introduction';
-import AboutMe from '../../containers/aboutme/AboutMe';
+import React from "react";
+import Introduction from "../../containers/introduction/Introduction";
+import Projects from "../../containers/projects/projects";
+
+import { MainContainer } from "./style";
 
 const HomePage = () => {
   return (
     <>
-      <Navigation />
-      <Introduction />
-      <AboutMe />
+      <MainContainer>
+        <Introduction />
+        <Projects />
+      </MainContainer>
     </>
   );
 };
