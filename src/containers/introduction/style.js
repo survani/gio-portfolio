@@ -1,21 +1,20 @@
 import styled from 'styled-components';
 
-export const Image = styled.img`
-  border-radius: 100px;
-  width: 800px;
-  margin: 0rem auto;
-  padding: 2rem;
-`;
-
-export const SmallText = styled.p`
-  font-size: 30px;
-  color: #3871d1;
+export const Text = styled.h1`
+  font-size: 24px;
+  font-family: Montserrat;
+  color: #2b2b2b;
   text-align: center;
-  font-family: montserrat, san-serif;
-  font-weight: 500;
+  margin-top: 2.5rem;
+  text-transform: uppercase;
 `;
 
-export const Arrow = styled.img`
-  width: 105px;
-  margin: 0 auto;
+export const Flag = styled.img`
+  margin: 1.5rem 1rem 0rem 0rem;
+  width: 250px;
+`;
+
+export const FlagContainer = styled.div`
+  display: flex;
+  justify-content: center;
 `;

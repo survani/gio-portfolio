@@ -1,14 +1,15 @@
-import React from 'react';
-import Avatar from '../../assets/avatar.jpg';
-import ZigZag from '../../assets/zigzag.png';
+import React from "react";
+import { Text, FlagContainer, Flag } from "./style";
 
-import { Image, SmallText, Arrow } from '../introduction/style';
+import Sitting from "../../assets/sitting.svg";
+
 const Introduction = () => {
   return (
     <>
-      <Image src={Avatar} alt="Avatar"></Image>
-      <SmallText>Full Stack Developer </SmallText>
-      <Arrow src={ZigZag} alt="Arrow"></Arrow>
+      <Text>Full Stack Developer </Text>
+      <FlagContainer>
+        <Flag src={Sitting} alt="Sitting Person"></Flag>
+      </FlagContainer>
     </>
   );
 };

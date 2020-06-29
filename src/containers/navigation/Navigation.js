@@ -1,11 +1,16 @@
-import React from 'react';
-import { NavContainer, LogoText } from './style';
+import React from "react";
+import { Header, NavContainer, Links } from "./style";
 
 const Navigation = () => {
   return (
-    <NavContainer>
-      <LogoText>Giovani Garfias</LogoText>
-    </NavContainer>
+    <>
+      <Header>
+        <NavContainer>
+          <Links href="/">Home</Links>
+          <Links href="/about">About Me</Links>
+        </NavContainer>
+      </Header>
+    </>
   );
 };
 
