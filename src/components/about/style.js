@@ -1,11 +1,11 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
 export const IntroSec = styled.section`
-  height: 750px;
+  height: 800px;
   display: flex;
   justify-content: center;
   @media (min-width: 768px) {
+    height: 750px;
     font-size: 86px;
     margin-bottom: 10rem;
   }
@@ -63,10 +63,11 @@ export const Text = styled.p`
   text-decoration: none;
 `;
 
-export const Links = styled(Link)`
+export const Links = styled.a`
   font-size: 20px;
   text-align: center;
   font-weight: 200;
   font-family: Montserrat;
   text-decoration: none;
+  border-bottom: 1px solid black;
 `;

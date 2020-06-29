@@ -34,7 +34,7 @@ const About = () => {
           person.
         </Text>
         <Text> Do you have a project? </Text>
-        <Links to="/hire">
+        <Links href="https://www.linkedin.com/in/giovani-garfias/">
           <Text>Hire Me</Text>
         </Links>
       </AboutSec>

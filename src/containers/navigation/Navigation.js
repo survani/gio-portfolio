@@ -8,7 +8,6 @@ const Navigation = () => {
         <NavContainer>
           <Links href="/">Home</Links>
           <Links href="/about">About Me</Links>
-          <Links>Hire Me</Links>
         </NavContainer>
       </Header>
     </>
