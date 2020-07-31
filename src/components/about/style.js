@@ -61,6 +61,7 @@ export const Text = styled.p`
   margin-top: 2rem;
   margin-bottom: 2rem;
   text-decoration: none;
+  color: #3f3d56;
 `;
 
 export const Links = styled.a`
