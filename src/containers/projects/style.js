@@ -31,6 +31,9 @@ export const Project = styled.div`
   &:nth-child(2) {
     background: #6c63ff;
   }
+    &:nth-child(4) {
+    background: #6c63ff;
+  }
   @media (min-width: 786px) {
     margin: 1rem 1rem;
   }

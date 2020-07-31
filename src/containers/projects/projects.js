@@ -15,6 +15,11 @@ const Projects = () => {
       </HeaderContainer>
       <ProjectContainer>
         <Project>
+          <ProjectTitle href="https://labspt7-workout-tracker.herokuapp.com/">
+            FitTracker
+          </ProjectTitle>
+        </Project>
+        <Project>
           <ProjectTitle href="https://frosty-shaw-74dc5f.netlify.app/">
             Chef Portfolio
           </ProjectTitle>
